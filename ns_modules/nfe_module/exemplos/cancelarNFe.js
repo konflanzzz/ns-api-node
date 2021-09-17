@@ -1,4 +1,5 @@
 // Exemplo de cancelamento de NFe
+// link da documentacao: 
 
 const cancelarNFe = require('../eventos/cancelamento')
 const util = require('../../api_module/util')

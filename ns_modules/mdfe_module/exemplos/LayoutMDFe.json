@@ -1,0 +1,127 @@
+{
+    "MDFe": {
+        "infMDFe": {
+            "versao": "3.00",
+            "Id": "MDFe",
+            "ide": {
+                "cUF": "43",
+                "tpAmb": "2",
+                "tpEmit": "2",
+                "tpTransp": "2",
+                "mod": "58",
+                "serie": "1",
+                "nMDF": "11693",
+                "cMDF": "",
+                "cDV": "",
+                "modal": "1",
+                "dhEmi": "2021-09-17T15:16:00-03:00",
+                "tpEmis": "1",
+                "procEmi": "0",
+                "verProc": "5.7",
+                "UFIni": "RS",
+                "UFFim": "RS",
+                "infMunCarrega": [
+                    {
+                        "cMunCarrega": "4303509",
+                        "xMunCarrega": "Camaqua"
+                    }
+                ],
+                "dhIniViagem": "2021-09-16T16:23:00-03:00"
+            },
+            "emit": {
+                "CNPJ": "07364617000135",
+                "IE": "0170108708",
+                "xNome": "EMISSAO TESTE MDFE",
+                "xFant": "NSTECNOLOGIA",
+                "enderEmit": {
+                    "xLgr": "AV ANTONIO DURO",
+                    "nro": "777",
+                    "xCpl": "Casa Frente",
+                    "xBairro": "OLARIA",
+                    "cMun": "4303509",
+                    "xMun": "Camaqua",
+                    "CEP": "96180000",
+                    "UF": "RS",
+                    "fone": "5136921123",
+                    "email": "email.teste@gmail.com"
+                }
+            },
+            "infDoc": {
+                "infMunDescarga": [
+                    {
+                        "cMunDescarga": "4303509",
+                        "xMunDescarga": "Camaqua",
+                        "infNFe": [
+                            {
+                                "chNFe": "43210707364617000135550000000228161415472576"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tot": {
+                "qCTe": "0",
+                "qNFe": "1",
+                "qMDFe": "0",
+                "vCarga": "3.00",
+                "cUnid": "01",
+                "qCarga": "10.0000"
+            },
+            "prodPred": {
+                "tpCarga": "05",
+                "xProd": "REFRIGERANTE",
+                "cEAN": "SEM GTIN",
+                "NCM": "22021000",
+                "infLotacao": {
+                    "infLocalCarrega": {
+                        "latitude": "-31.776000",
+                        "longitude": "-52.359400"
+                    },
+                    "infLocalDescarrega": {
+                        "latitude": "-31.776000",
+                        "longitude": "-52.359400"
+                    }
+                }
+            },
+            "infAdic": {
+                "infCpl": "TESTE DE EMISSAO GERADO PELO EXEMPLO NODE JS"
+            },
+            "infModal": {
+                "rodo": {
+                    "infANTT": {
+                        "RNTRC": "12345678",
+                        "infContratante": {
+                            "xNome": "Contratante da Silva",
+                            "CNPJ": "07364617000135"
+                        }
+                    },
+                    "veicTracao": {
+                        "cInt": "1",
+                        "placa": "IVA2674",
+                        "RENAVAM": "06985723601",
+                        "tara": "4544",
+                        "capKG": "1000",
+                        "prop": {
+                            "CPF": "16904541059",
+                            "RNTRC": "12345678",
+                            "xNome": "JOAOZINHO CARRETEIRO",
+                            "IE": "ISENTO",
+                            "UF": "RS",
+                            "tpProp": "0"
+                        },
+                        "condutor": [
+                            {
+                                "xNome": "JOAO CARRETEIRO",
+                                "CPF": "16904541059"
+                            }
+                        ],
+                        "tpRod": "06",
+                        "tpCar": "00",
+                        "UF": "RS"
+                    }
+                },
+                "versaoModal": "3.00"
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
-const nsAPI = require('../commons/nsAPI')
+const nsAPI = require('../../api_module/nsAPI')
+const util = require("../../api_module/util")
 var fs = require('fs');
-const util = require("../commons/util")
 
 const url = "https://mdfe.ns.eti.br/mdfe/get"
 
