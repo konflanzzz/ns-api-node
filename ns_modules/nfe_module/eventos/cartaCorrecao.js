@@ -1,4 +1,4 @@
-const nsAPI = require('../commons/nsAPI')
+const nsAPI = require('../../api_module/nsAPI')
 const downloadEvento = require('./downloadEvento')
 
 const url = "https://nfe.ns.eti.br/nfe/cce"

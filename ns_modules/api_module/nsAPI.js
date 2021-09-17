@@ -1,6 +1,6 @@
 const axios = require('axios')
-const configParceiro = require('../../../configParceiro')
-const util = require('./util')
+const configParceiro = require('../../configParceiro')
+const util = require('../api_module/util')
 
 const header = {
     "Content-Type": "application/json",

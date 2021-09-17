@@ -1,5 +1,5 @@
-const nsAPI = require('../commons/nsAPI')
-const util =  require('../commons/util')
+const nsAPI = require('../../api_module/nsAPI')
+const util = require('../../api_module/util')
 
 const url = "https://nfe.ns.eti.br/nfe/get/event"
 
