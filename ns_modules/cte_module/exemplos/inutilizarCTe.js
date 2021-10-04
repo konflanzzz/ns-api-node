@@ -1,6 +1,6 @@
 // Exemplo de inutilizacao de CTe
 
-const inutilizarCTe = require('./src/cte_module/eventos/inutilizacao')
+const inutilizarCTe = require('../eventos/inutilizacao')
 
 let corpo = new inutilizarCTe.body(
     "43",

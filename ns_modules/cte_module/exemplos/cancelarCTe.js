@@ -1,7 +1,7 @@
 // Exemplo de cancelamento de CTe
 
-const cancelarCTe = require('./src/cte_module/eventos/cancelamento')
-const util = require('./src/cte_module/commons/util')
+const cancelarCTe = require('../eventos/cancelamento')
+const util = require('../../api_module/util')
 
 let corpo = new cancelarCTe.body(
     "43210907364617000135570000000023191000003308",

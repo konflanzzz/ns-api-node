@@ -1,7 +1,7 @@
 // Exemplo de comprovante de entrega de CTe
 
 const compEntregaCTe = require('./src/cte_module/eventos/comprovanteEntrega')
-const util = require('./src/cte_module/commons/util')
+const util = require('../../api_module/util')
 
 let corpo = new compEntregaCTe.body(
     "43210907364617000135570000000023521000003302",

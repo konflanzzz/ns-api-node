@@ -1,7 +1,7 @@
 // Exemplo de carta de correcao de CTe
 
-const cartaCorrecaoCTe = require('./src/cte_module/eventos/cartaCorrecao')
-const util = require('./src/cte_module/commons/util')
+const cartaCorrecaoCTe = require('../eventos/cartaCorrecao')
+const util = require('../../api_module/util')
 
 let corpo = new cartaCorrecaoCTe.body(
     "43210907364617000135570000000023201000003309",

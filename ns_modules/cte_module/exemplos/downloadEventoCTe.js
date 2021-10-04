@@ -1,6 +1,6 @@
 // Exemplo Download de Evento de CTe
 
-const downloadEventoCTe = require('./src/cte_module/eventos/downloadEvento')
+const downloadEventoCTe = require('../eventos/downloadEvento')
 
 let corpo = new downloadEventoCTe.body(
     "43210907364617000135570000000023191000003308",
